@@ -49,6 +49,10 @@
 		F42DBBD517D971CA00A292A7 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F42DBBD417D971CA00A292A7 /* User.m */; };
 		F42DBBD817D9728000A292A7 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = F42DBBD717D9727F00A292A7 /* Product.m */; };
 		F42DBBDB17D9778100A292A7 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42DBBDA17D9778100A292A7 /* ProductDetailViewController.m */; };
+		F42DBBDE17D97AA200A292A7 /* SettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F42DBBDD17D97AA100A292A7 /* SettingsManager.m */; };
+		F42DBBE117D97AD900A292A7 /* BusinessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F42DBBE017D97AD900A292A7 /* BusinessManager.m */; };
+		F42DBBE417D97AEA00A292A7 /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F42DBBE317D97AE900A292A7 /* HttpClient.m */; };
+		F42DBBE717D97AFC00A292A7 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F42DBBE617D97AFB00A292A7 /* DatabaseManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,6 +139,14 @@
 		F42DBBD717D9727F00A292A7 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 		F42DBBD917D9778000A292A7 /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
 		F42DBBDA17D9778100A292A7 /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
+		F42DBBDC17D97AA100A292A7 /* SettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsManager.h; sourceTree = "<group>"; };
+		F42DBBDD17D97AA100A292A7 /* SettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsManager.m; sourceTree = "<group>"; };
+		F42DBBDF17D97AD800A292A7 /* BusinessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessManager.h; sourceTree = "<group>"; };
+		F42DBBE017D97AD900A292A7 /* BusinessManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessManager.m; sourceTree = "<group>"; };
+		F42DBBE217D97AE900A292A7 /* HttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpClient.h; sourceTree = "<group>"; };
+		F42DBBE317D97AE900A292A7 /* HttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpClient.m; sourceTree = "<group>"; };
+		F42DBBE517D97AFA00A292A7 /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
+		F42DBBE617D97AFB00A292A7 /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +268,14 @@
 			isa = PBXGroup;
 			children = (
 				F42DBBD217D971B900A292A7 /* Models */,
+				F42DBBDC17D97AA100A292A7 /* SettingsManager.h */,
+				F42DBBDD17D97AA100A292A7 /* SettingsManager.m */,
+				F42DBBE217D97AE900A292A7 /* HttpClient.h */,
+				F42DBBE317D97AE900A292A7 /* HttpClient.m */,
+				F42DBBE517D97AFA00A292A7 /* DatabaseManager.h */,
+				F42DBBE617D97AFB00A292A7 /* DatabaseManager.m */,
+				F42DBBDF17D97AD800A292A7 /* BusinessManager.h */,
+				F42DBBE017D97AD900A292A7 /* BusinessManager.m */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -603,6 +623,10 @@
 				F42DBBD517D971CA00A292A7 /* User.m in Sources */,
 				F42DBBD817D9728000A292A7 /* Product.m in Sources */,
 				F42DBBDB17D9778100A292A7 /* ProductDetailViewController.m in Sources */,
+				F42DBBDE17D97AA200A292A7 /* SettingsManager.m in Sources */,
+				F42DBBE117D97AD900A292A7 /* BusinessManager.m in Sources */,
+				F42DBBE417D97AEA00A292A7 /* HttpClient.m in Sources */,
+				F42DBBE717D97AFC00A292A7 /* DatabaseManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
