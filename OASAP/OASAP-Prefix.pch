@@ -1,0 +1,27 @@
+//
+// Prefix header for all source files of the 'OASAP' target in the 'OASAP' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+	#import <UIKit/UIKit.h>
+	#import <Foundation/Foundation.h>
+#endif
+
+#ifdef DEBUG
+#define NBLog(format, ...) NSLog(format, ## __VA_ARGS__)
+#else
+#define NBLog(format, ...)
+#endif
+
+#define ColorRGBA(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+// 适配iphone5
+#define iPhone5 ([UIScreen mainScreen].bounds.size.height == 568.f? YES: NO)
+
+#define isRetina ([UIScreen instancesRespondToSelector:@selector(scale)]?(2==[[UIScreen mainScreen] scale]):NO)
