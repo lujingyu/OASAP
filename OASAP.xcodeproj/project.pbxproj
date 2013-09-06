@@ -48,6 +48,7 @@
 		F42DBBD117D87E6A00A292A7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42DBBD017D87E6900A292A7 /* QuartzCore.framework */; };
 		F42DBBD517D971CA00A292A7 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F42DBBD417D971CA00A292A7 /* User.m */; };
 		F42DBBD817D9728000A292A7 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = F42DBBD717D9727F00A292A7 /* Product.m */; };
+		F42DBBDB17D9778100A292A7 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42DBBDA17D9778100A292A7 /* ProductDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +133,8 @@
 		F42DBBD417D971CA00A292A7 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		F42DBBD617D9727F00A292A7 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
 		F42DBBD717D9727F00A292A7 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		F42DBBD917D9778000A292A7 /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
+		F42DBBDA17D9778100A292A7 /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -345,6 +348,8 @@
 			children = (
 				F42DBBAD17D85A4500A292A7 /* HomeViewController.h */,
 				F42DBBAE17D85A4500A292A7 /* HomeViewController.m */,
+				F42DBBD917D9778000A292A7 /* ProductDetailViewController.h */,
+				F42DBBDA17D9778100A292A7 /* ProductDetailViewController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -597,6 +602,7 @@
 				F42DBBC817D85BBB00A292A7 /* AccountViewController.m in Sources */,
 				F42DBBD517D971CA00A292A7 /* User.m in Sources */,
 				F42DBBD817D9728000A292A7 /* Product.m in Sources */,
+				F42DBBDB17D9778100A292A7 /* ProductDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
